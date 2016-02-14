@@ -1,7 +1,5 @@
 # pyBarcodeScan
 
-## Description
-
 A Python program to scan barcodes from images with zbar and OpenCV.
 By default, it processes all images in the `srcDir` folder. For each barcode
 found in an image, the file is copied to the `dstDir` folder and named as
