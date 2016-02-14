@@ -3,23 +3,23 @@
 ## Description
 
 A Python program to scan barcodes from images with zbar and OpenCV.
-By default, it processes all images in the `srcImg` folder. For each barcode
-found in an image, the file is copied to the `dstImg` folder and named as
+By default, it processes all images in the `srcDir` folder. For each barcode
+found in an image, the file is copied to the `dstDir` folder and named as
 *barcode.count*.
 
 For example, if these are the image files and corresponding barcodes in them:
 ```
-srcImg/image01.jpg: 00400439, 00730655
-srcImg/image02.jpg: 00400439, 4890008330249
+srcDir/image01.jpg: 00400439, 00730655
+srcDir/image02.jpg: 00400439, 4890008330249
 ```
 
-After processing, the above images will be copied to folder `dstImg` as:
+After processing, the above images will be copied to folder `dstDir` as:
 
 ```
-dstImg/00400439.1.jpg
-dstImg/00400439.2.jpg
-dstImg/00730655.1.jpg
-dstImg/4890008330249.1.jpg
+dstDir/00400439.1.jpg
+dstDir/00400439.2.jpg
+dstDir/00730655.1.jpg
+dstDir/4890008330249.1.jpg
 ```
 
 ## Mechanism
