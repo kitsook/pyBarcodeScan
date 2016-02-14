@@ -1,0 +1,4 @@
+*.pyc
+dstDir/*
+lostDir/*
+srcDir/*
